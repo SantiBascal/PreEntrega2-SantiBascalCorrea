@@ -8,17 +8,29 @@ body{
 }
 
 header nav {
-    background-image: url(../images/navbar.png);
-    background-repeat: no-repeat;
+    background-color: rgb(228, 205, 200);
 }
 
-header nav ul {
-    background-color: rgb(228, 219, 214);
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     header nav {
         background-image: url(../images/navbar.png);
-        background-repeat: no-repeat;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+}
+
+
+@media (min-width: 1440px){
+    .navbar-brand img {
+        height: 120px;
+        width: 120px;
+    }
+
+    #navbarNav ul li {
+        font-size: 20px;
+        padding: 20px;
     }
 }
