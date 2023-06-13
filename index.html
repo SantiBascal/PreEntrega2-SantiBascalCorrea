@@ -47,27 +47,40 @@
 
     <main>
         <section id="section1">
-            <img class="mobile-style" src="./images/inicio-mobile.png" height="250px" width="250px" alt="">
-            <img class="desktop-style" src="./images/desayuno2.jpeg" alt="">
+            <img class="collage mobile__style" src="./images/inicio-mobile.png" height="250px" width="250px" alt="">
+            <img class="desyuno desktop__style" src="./images/desayunos.png" height="65px" width="280px" alt="">
+            <img class="tarta desktop__style" src="./images/tartas.png" height="65px" width="280px" alt="">
+            <img class="sandwich desktop__style" src="./images/sanguche.png" height="65px" width="280px" alt="">
+            <img class="merienda desktop__style" src="./images/meriendas.png" height="65px" width="280px" alt="">
         </section>
         <section id="section2">
             <p> En Algo Rico creamos productos elaborados de forma casera, para que puedan disfrutar de la comida hecha
                 en casa y con el amor de mamá. </p>
         </section>
-        <div class="separador">
-            <h3> Ultimos Productos </h3>
+
+
+        <!-- SOLO SE MUESTRA EN MOBILE -->
+        <div class="onlyMobile">
+
+            <div class="separador">
+                <h3> Ultimos Productos </h3>
+            </div>
+
+            <section id="ultimosProductos">
+                <img src="./images/tarta.jpeg" height="125px" width="125px" alt="">
+                <img src="./images/WhatsApp Image 2023-06-08 at 18.17.18.jpeg" height="125px" width="125px" alt="">
+            </section>
         </div>
 
-        <section id="ultimosProductos">
-            <img src="./images/tarta.jpeg" height="125px" width="125px" alt="">
-            <img src="./images/WhatsApp Image 2023-06-08 at 18.17.18.jpeg" height="125px" width="125px" alt="">
-        </section>
 
 
-        <div class="logoFlotante">
-            <a href="./pages/pedido.html"><img src="./images/wsp2.jpg.jpg" height="70px" width="70px" alt=""></a>
-        </div>
     </main>
+
+    <!-- Logo de WSP-->
+    <div class="logoFlotante">
+        <a href="./pages/pedido.html"><img src="./images/wsp2.jpg.jpg" height="70px" width="70px" alt=""></a>
+    </div>
+
 
     <footer>
         <div class="redes">
@@ -84,6 +97,15 @@
             </ul>
         </div>
         <p class="copyright"> Todos los derechos resevados a Algo Rico © </p>
+        <div class="infoExtra desktop__style">
+            <p> Links </p>
+            <ul>
+                <li><a href="#"> Inicio </a></li>
+                <li><a href="./pages/nosotros.html"> Nosotros </a></li>
+                <li><a href="./pages/faq.html"> FAQ </a></li>
+            </ul>
+        </div>
+
     </footer>
 
 

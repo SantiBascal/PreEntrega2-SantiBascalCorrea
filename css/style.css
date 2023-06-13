@@ -26,7 +26,7 @@ main{
     margin-top: 50px;
 }
 
-#section1 .mobile-style{
+.mobile__style{
     width: 75%;
     height: 75%;
 }
@@ -45,7 +45,7 @@ main{
     background-color: rgb(255, 221, 214);
 }
 
-#section1 .desktop-style {
+.desktop__style {
     display: none;
 }
 
@@ -109,8 +109,94 @@ footer p {
 /* Style Tablet */
 
 @media (min-width: 768px) {
+
+    #section1{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 75px 75px 75px 75px ;
+        grid-template-areas: 
+        "desayuno collage"
+        "tarta collage"
+        "sandwich collage"
+        "merienda collage";
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .collage{
+        grid-area: collage;
+    }
+
+    .desayuno{
+        grid-area: desayuno;
+    }
+
+    .tarta{
+        grid-area: tarta;
+    }
+
+    .sandwich{
+        grid-area: sandwich;
+    }
+
+    .merienda{
+        grid-area: merienda;
+    }
+
     header nav {
         background-image: url(../images/navbar.png);
+    }
+
+    .desktop__style {
+        display:initial ;
+    }
+
+    .collage {
+        height: 300px;
+        width: 300px;
+    }
+
+    #section2 p{
+        font-size: 18px;
+    }
+
+    footer{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 40px;
+        grid-template-areas: 
+        "info . redes"
+        ". copyright .";
+    }
+
+    .infoExtra{
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoExtra p{
+        font-size: 17px;
+    }
+
+    .infoExtra ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    .redes{
+        grid-area: redes;
+    }
+
+    .copyright{
+        grid-area: copyright;
+    }
+
+    .onlyMobile {
+        display: none;
     }
 }
 
