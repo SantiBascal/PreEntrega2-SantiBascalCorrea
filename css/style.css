@@ -61,6 +61,7 @@ main{
 .separador h3 {
     font-size: 20px;
     background-color: rgb(255, 221, 214);
+    margin: 0;
 }
 
 #ultimosProductos {
@@ -109,6 +110,14 @@ footer p {
 /* Style Tablet */
 
 @media (min-width: 768px) {
+    
+    header nav {
+        background-image: url(../images/navbar.png);
+    }
+
+    .desktop__style {
+        display:initial ;
+    }
 
     #section1{
         display: grid;
@@ -125,6 +134,8 @@ footer p {
     
     .collage{
         grid-area: collage;
+        height: 300px;
+        width: 300px;
     }
 
     .desayuno{
@@ -143,21 +154,40 @@ footer p {
         grid-area: merienda;
     }
 
-    header nav {
-        background-image: url(../images/navbar.png);
-    }
-
-    .desktop__style {
-        display:initial ;
-    }
-
-    .collage {
-        height: 300px;
-        width: 300px;
-    }
-
     #section2 p{
         font-size: 18px;
+    }
+
+    .separador{
+        background-size: auto;
+        height: 40px;
+    }
+
+    .separador h3{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .tarjetas{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+
+    .tarjetas .tarjetas--style{
+        height: 230px;
+        width: 230px;
+        background-color: rgb(250, 231, 227);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .tarjetas--style a{
+        text-decoration: none;
+        background-color: rgb(214, 160, 148);
+        color: black;
     }
 
     footer{
