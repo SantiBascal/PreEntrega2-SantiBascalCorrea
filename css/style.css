@@ -113,15 +113,25 @@ footer p {
 
 /* Pedidos Mobile */
 
+.separadorPedido{
+    margin-top: 0px;
+}
+
+.pedidoProductos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.separadorCarrito{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
 .pedido{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.pedido h3{
-    margin-top: 20px;
-    font-size: 18px;
 }
 
 .pedido a{
