@@ -158,6 +158,7 @@ footer p {
     align-items: center;
     margin-top: 20px;
     background-color: rgb(250, 231, 227);
+    
 }
 
 .sNosotros1 h3{
@@ -188,7 +189,7 @@ footer p {
 .sNosotros2 .tNosotros{
     background-color: rgb(250, 231, 227);
     height: 150px;
-    width: 150px;
+    width: 60%;
     border: 2px rgb(214, 160, 148) solid;
     margin-top: 15px;
     display: flex;
@@ -368,6 +369,53 @@ footer p {
     #fPedido{
         margin-top: 0px;
     }
+
+    /* page Nosotros */
+
+    #nosotros{
+        display: grid;
+        grid-template-columns:2fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        grid-template-areas: 
+        "section1 section2"
+        ". section2";
+        justify-items: center;
+        align-items: center;
+    }
+
+    .sNosotros1{
+        grid-area: section1;
+        height: 350px;
+        width: 450px;
+        
+    }
+
+    .sNosotros1 h3{
+        margin-top: 10px;
+    }
+
+    .sNosotros1 div p{
+        margin-right: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .sNosotros1 div img{
+        margin-right: 10px;
+    }
+
+    .sNosotros2{
+        grid-area: section2;
+        margin-top: 0px;
+    }
+
+    .sNosotros2 .tNosotros{
+        width: 175px;
+    }
+
+    .sNosotros2 .nRedes{
+        margin-top: 0px;
+    }
 }
 
 
@@ -447,5 +495,36 @@ footer p {
 
     .pedido a{
         margin-top: 60px;
+    }
+
+    /* Nosotros */
+
+    #fNosotros{
+        margin: 0px;
+    }
+
+    #nosotros{
+        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-areas: 
+        "section1 section2"
+        "section1 section2"
+        ". section2";
+    }
+
+    .sNosotros1{
+        width: 600px;
+    }
+
+    .sNosotros1 div p{
+        font-size: 21px;
+    }
+
+    .sNosotros1 div img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .sNosotros2{
+        margin: 0px;
     }
 }
