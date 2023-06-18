@@ -150,6 +150,58 @@ footer p {
     width: 100%;
 }
 
+/* Nosotros Mobile */
+
+.sNosotros1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(250, 231, 227);
+}
+
+.sNosotros1 h3{
+    background-color: rgb(255, 221, 214);
+}
+
+.sNosotros1 div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sNosotros1 div p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sNosotros2{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.sNosotros2 .tNosotros{
+    background-color: rgb(250, 231, 227);
+    height: 150px;
+    width: 150px;
+    border: 2px rgb(214, 160, 148) solid;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sNosotros2 .tNosotros p{
+    text-align: center;
+    background-color: rgb(250, 196, 186);
+    font-size: 20px;
+}
+
 /* Style Tablet */
 
 @media (min-width: 768px) {
