@@ -113,6 +113,10 @@ footer p {
 
 /* Pedidos Mobile */
 
+#pedido{
+    border-top: 5px rgb(214, 160, 148) solid;
+}
+
 .separadorPedido{
     margin-top: 0px;
 }
@@ -387,5 +391,9 @@ footer p {
 
     .copyright .copyrightP{
        font-size: 12px;
+    }
+
+    .pedido a{
+        margin-top: 60px;
     }
 }
