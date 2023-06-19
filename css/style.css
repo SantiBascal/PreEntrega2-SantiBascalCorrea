@@ -455,6 +455,17 @@ footer p {
     .sNosotros2 .nRedes{
         margin-top: 0px;
     }
+
+    /* Page Productos */
+    
+    #productos{
+        align-items: normal;
+    }
+
+    .productos__style{
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 
@@ -565,5 +576,35 @@ footer p {
 
     .sNosotros2{
         margin: 0px;
+    }
+
+    /* Page Productos */
+
+    .sTartas{
+        margin-top: 15px;
+    }
+
+    .productos__style{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tProductos{
+        height: 450px;
+        width: 350px;
+        margin-top: 0px;
+    }
+
+    .tProductos img{
+        height: 225px;
+        width: 225px;
+    }
+
+    .tProductos h4{
+        font-size: 26px;
+    }
+
+    .tProductos ul li{
+        font-size: 22px;
     }
 }
