@@ -232,10 +232,15 @@ footer p {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border: 2px rgb(214, 160, 148) solid;
 }
 
 .tProductos h4{
     font-size: 20px;
+}
+
+#fProductos{
+    margin-top: 20px;
 }
 /* Style Tablet */
 
