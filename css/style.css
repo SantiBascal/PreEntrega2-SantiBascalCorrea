@@ -203,6 +203,40 @@ footer p {
     font-size: 20px;
 }
 
+/* Productos mobile */
+
+#productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sProductos{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.productos__style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.tProductos{
+    height: 385px;
+    width: 200px;
+    background-color: rgb(250, 231, 227);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tProductos h4{
+    font-size: 20px;
+}
 /* Style Tablet */
 
 @media (min-width: 768px) {
