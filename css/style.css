@@ -45,13 +45,6 @@ main{
     background-color: rgb(255, 221, 214);
 }
 
-.desktop__style {
-    display: none;
-}
-
-.desktop__only{
-    display: none;
-}
 
 .separador {
     background-image:url(../images/navbar.png) ;
@@ -77,39 +70,6 @@ main{
     margin-bottom: 20px;
 }
 
-
-.logoFlotante {
-   position: fixed;
-   bottom: 0;
-   right: 0;
-}
-
-footer {
-    background-color: rgb(228, 205, 200);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer p {
-    font-size: 13px;
-    margin-bottom: 0;
-}
-
-.copyright{
-    font-size: 10px;
-    align-items: center;
-}
-
-.redes ul {
-    list-style: none;
-}
-
-.redes ul li {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
 /* Pedidos Mobile */
 
@@ -387,47 +347,6 @@ footer p {
         padding: 5px;
     }
 
-    footer{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 40px;
-        grid-template-areas: 
-        "info . redes"
-        ". copyright .";
-    }
-
-    .infoExtra{
-        grid-area: info;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .infoExtra p{
-        font-size: 17px;
-    }
-
-    .infoExtra ul li a{
-        text-decoration: none;
-        color: black;
-        font-size: 15px;
-    }
-
-    .redes{
-        grid-area: redes;
-    }
-
-    .copyright{
-        grid-area: copyright;
-        display: flex;
-        justify-content: center;
-    }
-
-    .onlyMobile {
-        display: none;
-    }
-
     /* page Pedido */
 
     #pedido{
@@ -549,9 +468,6 @@ footer p {
         background-color: rgb(255, 221, 214);
     }
 
-    .mobile__only{
-        display: none;
-    }
 
     #section1{
         grid-area: section1;
