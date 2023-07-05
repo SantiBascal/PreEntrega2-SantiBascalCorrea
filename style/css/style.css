@@ -142,6 +142,14 @@ footer .redes ul li {
   grid-area: tarjetas;
 }
 
+.sNosotros1 {
+  grid-area: section1;
+}
+
+.sNosotros2 {
+  grid-area: section2;
+}
+
 #inicio {
   display: flex;
   flex-direction: column;
@@ -296,6 +304,113 @@ footer .redes ul li {
   }
   #inicio .tarjetas .tarjetas--style a {
     font-size: 18px;
+  }
+}
+#nosotros .sNosotros1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #E8BBB2;
+  border: 1px solid #716057;
+}
+#nosotros .sNosotros1 h3 {
+  background-color: #E4DBD6;
+  width: 100%;
+  text-align: center;
+}
+#nosotros .sNosotros1 div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#nosotros .sNosotros1 div p {
+  font-size: 15px;
+  text-align: justify;
+  padding: 10px;
+}
+#nosotros .sNosotros1 div img {
+  height: 125px;
+  width: 125px;
+  padding: 10px;
+}
+#nosotros .sNosotros2 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+#nosotros .sNosotros2 .tNosotros {
+  background-color: rgb(228, 205, 200);
+  height: 150px;
+  width: 60%;
+  border: 1px solid #716057;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#nosotros .sNosotros2 .tNosotros p {
+  text-align: center;
+  background-color: #E8BBB2;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  #nosotros {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "section1 section2" ". section2";
+    justify-items: center;
+    align-items: center;
+  }
+  #nosotros .sNosotros1 {
+    height: 350px;
+    width: 450px;
+  }
+  #nosotros .sNosotros1 h3 {
+    margin-top: 10px;
+  }
+  #nosotros .sNosotros1 div p {
+    margin-right: 20px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  #nosotros .sNosotros1 div img {
+    margin-right: 10px;
+  }
+  #nosotros .sNosotros2 {
+    margin-top: 0px;
+  }
+  #nosotros .sNosotros2 .tNosotros {
+    width: 175px;
+  }
+  #nosotros .sNosotros2 .nRedes {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  #nosotros {
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: "section1 section2" "section1 section2" ". section2";
+    margin-top: 20px;
+  }
+  #nosotros .sNosotros1 {
+    width: 600px;
+  }
+  #nosotros .sNosotros1 div p {
+    font-size: 21px;
+  }
+  #nosotros .sNosotros1 div img {
+    height: 175px;
+    width: 175px;
+  }
+  #nosotros .sNosotros2 {
+    margin: 40px;
   }
 }
 
