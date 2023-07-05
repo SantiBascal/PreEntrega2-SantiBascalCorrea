@@ -177,7 +177,7 @@ footer .redes ul li {
   justify-content: center;
   margin-top: 100px;
 }
-#inicio .separador h3 {
+#inicio .separador h2 {
   font-size: 20px;
   background-color: rgb(255, 221, 214);
   margin: 0;
@@ -216,7 +216,7 @@ footer .redes ul li {
     background-size: auto;
     height: 40px;
   }
-  #inicio .separador h3 {
+  #inicio .separador h2 {
     font-size: 23px;
     text-align: center;
   }
@@ -265,7 +265,7 @@ footer .redes ul li {
   #inicio #section2 {
     height: 350px;
     margin-top: 0px;
-    width: 320px;
+    width: 370px;
   }
   #inicio #section2 .mobile__style {
     display: none;
@@ -276,6 +276,8 @@ footer .redes ul li {
     font-size: 21px;
     margin-bottom: 0px;
     margin-left: 20px;
+    padding: 15px;
+    border: 1px solid #716057;
   }
   #inicio .separador {
     grid-area: separador;

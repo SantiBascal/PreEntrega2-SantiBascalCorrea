@@ -373,73 +373,7 @@
 /* Style Desktop */
 
 @media (min-width: 1024px) {
-    #inicio{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 4fr  1fr 2fr;
-        grid-template-areas: 
-        "section1 section2 "
-        "separador separador"
-        "tarjetas tarjetas";
-        align-items:center;
-    }
 
-    .desktop__only{
-        display: initial;
-        background-color: rgb(255, 221, 214);
-    }
-
-
-    #section1{
-        grid-area: section1;
-        grid-template-columns: 350px 350px;
-        grid-template-rows: 85px 85px 85px 85px ;
-        margin-top: 0px;
-    }
-
-    .collage{
-        height: 350px;
-        width: 350px;
-    }
-
-    #section2{
-        grid-area: section2;
-        height: 350px;
-        margin-top: 0px;
-        width: 320px;
-    }
-
-    #section2 .desktop__only{
-        font-size: 21px;
-    }
-
-    #section2 p{
-        margin-bottom: 0px;
-        margin-left: 20px;
-    }
-
-    .separador{
-        grid-area: separador;
-        margin-top: 0px;
-    }
-
-    .tarjetas{
-        grid-area: tarjetas;
-        margin-top: 0px;
-    }
-
-    .tarjetas .tarjetas--style{
-        height: 330px;
-        width: 280px;
-    }
-
-    .tarjetas--style a{
-        font-size: 18px;
-    }
-
-    .copyright .copyrightP{
-       font-size: 12px;
-    }
 
     .pedido a{
         margin-top: 60px;
