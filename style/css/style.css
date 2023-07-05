@@ -605,5 +605,72 @@ footer .redes ul li {
     font-size: 22px;
   }
 }
+#faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#faq #sFaq1 {
+  margin-top: 10px;
+  width: 90%;
+}
+#faq #sFaq2 {
+  width: 70%;
+  background-color: #E4DBD6;
+  border: 2px solid #716057;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#faq #sFaq2 h2 {
+  font-size: 18px;
+  background-color: #E8BBB2;
+  text-align: center;
+}
+#faq #sFaq2 p {
+  font-size: 17px;
+  text-align: center;
+}
+#faq #sFaq2 .redesFaq {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+#faq #sFaq2 .redesFaq a {
+  height: 50px;
+  width: 50px;
+}
+#faq #sFaq2 .redesFaq a img {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  #faq #sFaq2 {
+    width: 400px;
+    height: 220px;
+  }
+  #faq #sFaq2 h2 {
+    font-size: 23px;
+    width: 100%;
+  }
+  #faq #sFaq2 p {
+    font-size: 20px;
+  }
+  #faq #sFaq2 .redesFaq {
+    margin-bottom: 20px;
+  }
+  #faq #sFaq2 .redesFaq a {
+    height: 70px;
+    width: 70px;
+  }
+  #faq #sFaq2 .redesFaq a img {
+    height: 70px;
+    width: 70px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
