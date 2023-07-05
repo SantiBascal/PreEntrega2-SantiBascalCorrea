@@ -10,9 +10,6 @@ body{
 
 /* Style Mobile */
 
-header nav {
-    background-color: rgb(228, 205, 200);
-}
 
 main{
     display: flex;
