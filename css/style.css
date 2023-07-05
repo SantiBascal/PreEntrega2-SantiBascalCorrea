@@ -1,72 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: rgb(252, 241, 239);
-    font-family: 'Inter', sans-serif;
-}
-
-/* Style Mobile */
-
-
-main{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-#section1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.mobile__style{
-    width: 75%;
-    height: 75%;
-}
-
-#section2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;   
-}
-
-.mobile__style{
-    display: block;
-    width: 75%;
-    text-align: justify;
-    font-size: 15px;
-    background-color: rgb(255, 221, 214);
-}
-
-
-.separador {
-    background-image:url(../images/navbar.png) ;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-.separador h3 {
-    font-size: 20px;
-    background-color: rgb(255, 221, 214);
-    margin: 0;
-}
-
-#ultimosProductos {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
 
 /* Pedidos Mobile */
 
@@ -264,13 +195,6 @@ main{
 
 @media (min-width: 768px) {
     
-    header nav {
-        background-image: url(../images/navbar.png);
-    }
-
-    .desktop__style {
-        display:initial ;
-    }
 
     #section1{
         display: grid;

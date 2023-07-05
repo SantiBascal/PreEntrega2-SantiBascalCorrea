@@ -101,5 +101,200 @@ footer .redes ul li {
     justify-content: center;
   }
 }
+@media (min-width: 1024px) {
+  .copyright .copyrightP {
+    font-size: 12px;
+  }
+}
+.collage {
+  grid-area: collage;
+}
+
+.desayuno {
+  grid-area: desayuno;
+}
+
+.tarta {
+  grid-area: tarta;
+}
+
+.sandwich {
+  grid-area: sandwich;
+}
+
+.merienda {
+  grid-area: merienda;
+}
+
+#section1 {
+  grid-area: section1;
+}
+
+#section2 {
+  grid-area: section2;
+}
+
+.separador {
+  grid-area: separador;
+}
+
+.tarjetas {
+  grid-area: tarjetas;
+}
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+}
+#inicio #section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#inicio #section1 .mobile__style {
+  width: 75%;
+  height: 75%;
+}
+#inicio #section2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+#inicio #section2 .mobile__style {
+  display: block;
+  width: 75%;
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
+  background-color: #E8BBB2;
+  border: 1px solid #716057;
+}
+#inicio .separador {
+  background-image: url(../../images/navbar.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+#inicio .separador h3 {
+  font-size: 20px;
+  background-color: rgb(255, 221, 214);
+  margin: 0;
+}
+#inicio .onlyMobile #ultimosProductos {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+#inicio .onlyMobile #ultimosProductos img {
+  border: 1px solid #716057;
+  padding: 5px;
+  background-color: #E8BBB2;
+}
+
+@media (min-width: 768px) {
+  #inicio #section1 {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas: "desayuno collage" "tarta collage" "sandwich collage" "merienda collage";
+    justify-items: center;
+    align-items: center;
+  }
+  #inicio #section1 .collage {
+    height: 300px;
+    width: 300px;
+  }
+  #inicio #section2 .mobile__style {
+    font-size: 18px;
+  }
+  #inicio .separador {
+    background-size: auto;
+    height: 40px;
+  }
+  #inicio .separador h3 {
+    font-size: 23px;
+    text-align: center;
+  }
+  #inicio .tarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  #inicio .tarjetas .tarjetas--style {
+    height: 280px;
+    width: 230px;
+    background-color: #E4DBD6;
+    border: 1px solid #716057;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #inicio .tarjetas .tarjetas--style a {
+    text-decoration: none;
+    background-color: rgb(214, 160, 148);
+    color: black;
+    padding: 5px;
+  }
+  #inicio .tarjetas .tarjetas--style img {
+    border: 1px solid #716057;
+  }
+}
+@media (min-width: 1024px) {
+  #inicio {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 4fr 1fr 2fr;
+    grid-template-areas: "section1 section2 " "separador separador" "tarjetas tarjetas";
+    align-items: center;
+  }
+  #inicio #section1 {
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 85px 85px 85px 85px;
+    margin-top: 0px;
+  }
+  #inicio #section1 .collage {
+    height: 350px;
+    width: 350px;
+  }
+  #inicio #section2 {
+    height: 350px;
+    margin-top: 0px;
+    width: 320px;
+  }
+  #inicio #section2 .mobile__style {
+    display: none;
+  }
+  #inicio #section2 .desktop__only {
+    display: initial;
+    background-color: #E8BBB2;
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  #inicio .separador {
+    grid-area: separador;
+    margin-top: 0px;
+  }
+  #inicio .tarjetas {
+    grid-area: tarjetas;
+    margin-top: 0px;
+  }
+  #inicio .tarjetas .tarjetas--style {
+    height: 330px;
+    width: 280px;
+  }
+  #inicio .tarjetas .tarjetas--style p {
+    font-size: 17px;
+  }
+  #inicio .tarjetas .tarjetas--style a {
+    font-size: 18px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
