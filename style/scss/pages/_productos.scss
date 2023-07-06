@@ -34,11 +34,15 @@
             justify-content: space-evenly;
             align-items: center;
             border: $border;
-
+            transition: all 300ms;
             h3 {
                 font-size: 20px;
                 border-bottom: $border;
             }
+        }
+
+        .tProductos:hover{
+            transform: scale(1.05);
         }
     }
 }
@@ -70,20 +74,20 @@
             margin-top: 20px;
             margin-bottom: 20px;
             .tProductos {
-                height: 450px;
-                width: 350px;
+                height: 440px;
+                width: 300px;
                 margin-top: 0px;
                 h3 {
-                    font-size: 26px;
+                    font-size: 23px;
                 }
                 img {
-                    height: 225px;
-                    width: 225px;
+                    height: 200px;
+                    width: 200px;
                     border: $border;
                 }
                 ul{
                     li {
-                        font-size: 22px;
+                        font-size: 21px;
                     }
                 }
             }

@@ -36,6 +36,11 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
+  transition: all 300ms;
+}
+
+.logoFlotante:hover {
+  transform: scale(1.15);
 }
 
 header nav {
@@ -575,10 +580,14 @@ footer .redes ul li {
   justify-content: space-evenly;
   align-items: center;
   border: 2px solid #716057;
+  transition: all 300ms;
 }
 #productos .productos__style .tProductos h3 {
   font-size: 20px;
   border-bottom: 2px solid #716057;
+}
+#productos .productos__style .tProductos:hover {
+  transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
@@ -602,20 +611,20 @@ footer .redes ul li {
     margin-bottom: 20px;
   }
   #productos .productos__style .tProductos {
-    height: 450px;
-    width: 350px;
+    height: 440px;
+    width: 300px;
     margin-top: 0px;
   }
   #productos .productos__style .tProductos h3 {
-    font-size: 26px;
+    font-size: 23px;
   }
   #productos .productos__style .tProductos img {
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     border: 2px solid #716057;
   }
   #productos .productos__style .tProductos ul li {
-    font-size: 22px;
+    font-size: 21px;
   }
 }
 #faq {
